@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #334BEB;
+  color:black;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 10px;
+  width: 600px;
+  /*box-shadow: 3px 3px 3px #6C7DEE;*/
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  color: red;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fab {
+  color: grey;
+  font-weight: 50px;
+  font-size: 40px;
+}
+
+.twitter:hover {
+  color: #2AA8EB;
+}
+
+.facebook:hover {
+  color: #4565A9;
+}
+
+.github:hover {
+  color: #1C2024;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.team {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.team li {
+  background-color: #D8DCE0;
+  margin: 6px auto;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  width: 500px;
+}
+
+.button {
+  background-color: #F65555;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #F67F7F;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+#profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px #EAE6E6;
+}
+
+#catch_line {
+  margin-bottom: 30px;
+}
+
+
+
